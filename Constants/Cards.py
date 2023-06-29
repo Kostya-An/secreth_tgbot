@@ -2,9 +2,9 @@ playerSets = {
     # only for testing purposes
     3: {
         "roles": [
-            "Liberal",
-            "Fascist",
-            "Blue"
+            "Либерал",
+            "Фашист",
+            "Гитлер"
         ],
         "track": [
             None,
@@ -18,10 +18,9 @@ playerSets = {
     # only for testing purposes
     4: {
         "roles": [
-            "Liberal",
-            "Liberal",
-            "Fascist",
-            "Blue"
+            *["Либерал"]*2,
+            "Фашист",
+            "Гитлер"
         ],
         "track": [
             None,
@@ -34,11 +33,9 @@ playerSets = {
     },
     5: {
         "roles": [
-            "Liberal",
-            "Liberal",
-            "Liberal",
-            "Fascist",
-            "Blue"
+            *["Либерал"]*3,
+            "Фашист",
+            "Гитлер"
         ],
         "track": [
             None,
@@ -51,12 +48,9 @@ playerSets = {
     },
     6: {
         "roles": [
-            "Liberal",
-            "Liberal",
-            "Liberal",
-            "Liberal",
-            "Fascist",
-            "Blue"
+            *["Либерал"]*4,
+            "Фашист",
+            "Гитлер"
         ],
         "track": [
             None,
@@ -69,13 +63,9 @@ playerSets = {
     },
     7: {
         "roles": [
-            "Liberal",
-            "Liberal",
-            "Liberal",
-            "Liberal",
-            "Fascist",
-            "Fascist",
-            "Blue"
+            *["Либерал"]*4,
+            *["Фашист"]*2,
+            "Гитлер"
         ],
         "track": [
             None,
@@ -88,14 +78,9 @@ playerSets = {
     },
     8: {
         "roles": [
-            "Liberal",
-            "Liberal",
-            "Liberal",
-            "Liberal",
-            "Liberal",
-            "Fascist",
-            "Fascist",
-            "Blue"
+            *["Либерал"]*5,
+            *["Фашист"]*2,
+            "Гитлер"
         ],
         "track": [
             None,
@@ -108,15 +93,9 @@ playerSets = {
     },
     9: {
         "roles": [
-            "Liberal",
-            "Liberal",
-            "Liberal",
-            "Liberal",
-            "Liberal",
-            "Fascist",
-            "Fascist",
-            "Fascist",
-            "Blue"
+            *["Либерал"]*5,
+            *["Фашист"]*3,
+            "Гитлер"
         ],
         "track": [
             "inspect",
@@ -129,16 +108,9 @@ playerSets = {
     },
     10: {
         "roles": [
-            "Liberal",
-            "Liberal",
-            "Liberal",
-            "Liberal",
-            "Liberal",
-            "Liberal",
-            "Fascist",
-            "Fascist",
-            "Fascist",
-            "Blue"
+            *["Либерал"]*6,
+            *["Фашист"]*3,
+            "Гитлер"
         ],
         "track": [
             "inspect",
@@ -151,22 +123,4 @@ playerSets = {
     },
 }
 
-policies = [
-        "liberal",
-        "liberal",
-        "liberal",
-        "liberal",
-        "liberal",
-        "liberal",
-        "fascist",
-        "fascist",
-        "fascist",
-        "fascist",
-        "fascist",
-        "fascist",
-        "fascist",
-        "fascist",
-        "fascist",
-        "fascist",
-        "fascist"
-    ]
+policies = ["либеральный"]*6 + ["фашистский"]*11

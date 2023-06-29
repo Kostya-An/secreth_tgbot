@@ -1,8 +1,10 @@
-class Player(object):
-    def __init__(self, name, uid):
-        self.name = name
-        self.uid = uid
-        self.role = None
-        self.party = None
-        self.is_dead = False
-        self.inspected_players = {}
+from dataclasses import dataclass, field
+
+@dataclass
+class Player:
+    name: str
+    tg_id: int
+    role: str = None
+    party: str = None
+    is_dead: bool = False
+    inspected_players: dict = field(default_factory=dict)

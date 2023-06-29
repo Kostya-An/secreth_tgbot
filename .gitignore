@@ -1,0 +1,9 @@
+Constants/Config.py
+*.db
+*.log
+non-upload*.py
+**/__pycache__
+**/.vscode
+venv
+stats.json
+Tasks.txt
